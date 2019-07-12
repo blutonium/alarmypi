@@ -1,7 +1,7 @@
 # alarmypi
 Python based alarm system for raspberrypi
 
-A collection of scripts for the implementation of an alarm system based on an RPI. It detects an open door or something with a laser and a lightning Sensor. The programm is written in Python, the webfrontend for steering the system contains html and php.
+A collection of scripts for the implementation of an alarm system based on an RPI. It detects an open door or something with a laser and a lighting Sensor. The programm is written in Python, the webfrontend for steering the system contains html and php.
 
 Wiring
 
