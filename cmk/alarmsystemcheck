@@ -1,0 +1,13 @@
+#!/bin/bash
+
+if pgrep -f "detection.py" >/dev/null 2>&1
+	then
+		status=0
+		statustxt=OK
+		fulltxt="Script is running"
+	else
+		status=2
+		statustxt=CRITICAL
+		fulltxt="Script is not running"
+fi
+echo "$status Alarmsystemstatus count=$status;1;2 $statustxt - $fulltxt"
